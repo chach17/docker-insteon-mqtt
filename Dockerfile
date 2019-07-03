@@ -1,4 +1,4 @@
-FROM homeassistant/amd64-homeassistant-base
+FROM alpine:3.7
 
 VOLUME /config
 
