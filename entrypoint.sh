@@ -1,5 +1,8 @@
 #!/bin/bash
 
+git clone 'https://github.com/chach17/insteon-mqtt.git' /opt/insteon-mqtt
+pip install /opt/insteon-mqtt
+
 /bin/cp /opt/insteon-mqtt/config.yaml /config/insteon_mqtt.yaml.default
 
   if [ ! -f /config/insteon_mqtt.yaml ]; then
